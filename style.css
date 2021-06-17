@@ -1,9 +1,240 @@
-body{
+html{
     font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+   
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
-img.{
-    width: 50px;
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.menunav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.menunav li {
+    padding: 40px 30px 
+}
+
+.menunav li:hover{
+    border-top: solid #0065FC;
+    text-decoration: #0065FC;
+    
+    cursor: pointer;
+}
+.menunav a:hover{
+    color: #0065FC;
+}
+
+h1, h2{
+    font-size: 1.5em;
+}
+
+.searchmenu .fas {
+    width: 30px;
+    height: auto;
+    padding: 10px 10px ;
+}
+
+.button {
+    width: 150px;
     height: 50px;
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#search {
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+::placeholder{
+    color: #000;
+}
+
+
+
+.filtersmenu .fas{
+    width: 30px;
+    height: auto;
+   
+}
+
+.filtersmenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+    
+}
+.filtersmenu ul{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left:0;
+    padding-left:0;
+  
+}
+.filtersmenu li{
+    list-style: none;
+    font-weight: bold;
+    margin-top: 10px;²
+    margin-bottom: 010px;
+    padding: 0px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.fas {
+    color: #0065fc;
+}
+
+
+
+header{
+
+    border-bottom: 1px dashed #000; /*A virer*/
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000; /*A virer*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+
+}
+.contenu_footer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+.block_contenu_footer {
+    font-size: 1em;
+    padding-bottom: 20px;
+    padding: 0 200px 0 0;
+}
+.liste_a_propos, 
+.liste_hebergement,
+.liste_assistance{
+    list-style: none;
+    margin-left:0;
+    padding-left:0;
+}
+
+.picture{
+    width: 5%;
+    height: 5%;
 }
 
