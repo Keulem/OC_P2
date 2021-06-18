@@ -17,6 +17,7 @@ header{
     box-sizing: border-box;
     display: table;
     width: 100%;  
+    border-bottom: 1px dashed #000; /*A virer*/
 }
 
 #logo{
@@ -126,7 +127,6 @@ h1, h2{
 
 .fa-info-circle{
     background-color:#0065FC;
-   
     color: white;
     border-radius: 100%;
     border: solid 1px #d9d9d9;
@@ -137,28 +137,17 @@ h1, h2{
     margin-left: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header{
-
-    border-bottom: 1px dashed #000; /*A virer*/
-  
+#accomodation{
+    display: flex;
+    flex-direction: row;
 }
+
+
+
+
+
+
+
 
 
 
