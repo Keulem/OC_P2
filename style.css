@@ -141,7 +141,18 @@ h1, h2{
 
 
 
-picture
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,9 +169,74 @@ picture
 
 
 
+
+
+#accomodation{
+    float: left;
+    background-color: teal;
+    width: 75%;
+}
+#popular{
+    background-color: tomato;
+}
+#activities{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     width: 100%;
     margin-top: 50px;
+    clear: both;
     border-top: 1px dashed #000; /*A virer*/
 }
 
