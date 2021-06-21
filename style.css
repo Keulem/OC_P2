@@ -175,6 +175,22 @@ h1, h2{
     float: left;
     background-color: teal;
     width: 75%;
+    
+}
+#accomodation .picture{
+    width: 300px;
+    height: auto;
+}
+.firstrow{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.secondrow{
+    display: inline-flex;
+    justify-content: space-between;
+}
+#accomodation, #popular, .fa-star{
+    color: #0065FC;
 }
 #popular{
     background-color: tomato;
