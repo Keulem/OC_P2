@@ -250,9 +250,23 @@ h1, h2{
 .starpop{
     padding-top: 2em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #activities{
     width: 100%;
-    background-color: tomato;
+    background-color: white;
 }
 
 .containeractivities{
@@ -261,32 +275,53 @@ h1, h2{
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-    height: 496px;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    
+    height: 470px;
     box-sizing: border-box;
 }
 .vignetteact{
-    width: 25%;
+    width: 22%;
+}
+
+.blockactivities{
+    background-color: white;
+    border-radius: 15px;
+    
 }
 .actpicture{
     width: 100%;
     object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0;
+    border-radius: 15px 15px 0 0;
 }
 
+.actpicture1{
+    height: 400px;
+}
 
+.actpicture2{
+    height: 200px;
+}
 
+.actpicture3{
+    height: 100px;
+}
 
+.actpicture4{
+    height: 400px;
+}
 
+.actpicture5{
+    height: 150px;
+}
 
+.actpicture6{
+    height: 150px;
+}
 
+#activities h3{
+    padding-left: 20px;
 
-
-
-
-
-
+}
 
 
 
