@@ -70,7 +70,7 @@ h1, h2{
     font-weight: bold;
     cursor: pointer;
     margin-top: 1em;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5em;   
 }
 
 #search {
@@ -92,7 +92,7 @@ h1, h2{
     border-radius: 100%;
 }
 
-.filtersmenu {
+.filtersmenu { /*icone à changer */
     display: flex;
     flex-direction: row;
     justify-content: stretch;
@@ -125,9 +125,9 @@ h1, h2{
     align-items: center;
 }
 
-.fa-info-circle{
-    background-color:#0065FC;
-    color: white;
+.fa-info{
+    padding: 10px 10px 10px 10px;
+    color: #0065FC;
     border-radius: 100%;
     border: solid 1px #d9d9d9;
     display: flex;
@@ -162,46 +162,118 @@ h1, h2{
 
 
 
-.picture{
-    width: 5%;
-    height: 5%;
-}
-
 
 
 
 
 #accomodation{
-    float: left;
-    background-color: teal;
-    width: 75%;
+    background-color: white;
+    width: 66.6%;   
+}
+.accomodationmarseille{
+    display: flex;
+    flex-wrap: wrap;
+}
+.accomodationmarseille h3{
+    line-height: 0;
+}
+.VignetteAcc{
+    width: 30%;
+    width: calc(33.3% - 30px);
+    background: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 0 20px 50px 10px;
+    box-shadow: 0 5px 15px #cacaca;
+}
+.Vignettecontent{
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 0.5;
+    margin-bottom: 10px;
+}
     
+.accmapicture{
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    cursor: pointer;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
 }
-#accomodation .picture{
-    width: 300px;
-    height: auto;
-}
-.firstrow{
-    display: inline-flex;
-    justify-content: space-between;
-}
-.secondrow{
-    display: inline-flex;
-    justify-content: space-between;
-}
-#accomodation, #popular, .fa-star{
+
+.fa-star{
     color: #0065FC;
 }
+#accomodationpopular{
+    display: flex;
+}
+
 #popular{
-    background-color: tomato;
+    background-color: white;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.fa-chart-line{
+    margin-left: 130px;
+}
+.VignettePop{
+    display: flex;
+    width: 75%;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    margin: 0 10px 45px 10px;
+    height: 165px;
+    box-shadow: 0 5px 16px #cacaca;
+    
+}
+.poppicture{
+    background-color: white;
+    cursor: pointer;
+    float: left;
+    width: 40%;
+    height: 100%;
+    border-radius: 15px 0 0 15px;
+    margin-left: 5px;
+    object-fit: cover;
+}
+.Vignettecontent2{
+    padding-left: 45%;
+    font-size: 15px;
+    line-height: 1;
+}
+.starpop{
+    padding-top: 2em;
 }
 #activities{
-    clear: both;
+    width: 100%;
+    background-color: tomato;
 }
 
-
-
-
+.containeractivities{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 496px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+.vignetteact{
+    width: 25%;
+}
+.actpicture{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
 
 
 
