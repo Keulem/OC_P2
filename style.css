@@ -17,7 +17,7 @@ header{
     box-sizing: border-box;
     display: table;
     width: 100%;  
-    border-bottom: 1px dashed #000; /*A virer*/
+    margin-bottom: 75px;
 }
 
 #logo{
@@ -358,9 +358,9 @@ h1, h2{
 
 footer{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 75px;
     clear: both;
-    border-top: 1px dashed #000; /*A virer*/
+
 }
 
 .contenu_footer{
