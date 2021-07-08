@@ -2,7 +2,6 @@ html{
     font-family: 'Raleway', sans-serif;
     line-height: 1.5em;
 }
-
 header, body, footer{
     margin-left: auto;
     margin-right: auto;
@@ -13,52 +12,45 @@ a{
     color: black;
 }
 
+/*HEADER*/
+
 header{
     box-sizing: border-box;
     display: table;
     width: 100%;  
     margin-bottom: 75px;
 }
-
 #logo{
     width: 100px;
     height: auto;
     padding-top: 18px;
     float: left;
-   
 }
-
 .menunav {
     list-style-type: none;
     text-align: right;
     margin: 0;
 }
-
 .menunav li {
     display: inline-block;
     vertical-align: top;
     padding: 30px;
     border-top: solid 1px #0065FC;
 }
-
 .menunav .nope2{
     border-top: none;
 }
-
 h1{
     padding-top: 1em;
 }
-
 h1, h2{
     font-size: 1.5em;
 }
-
 .searchmenu .fas {
     width: 30px;
     height: auto;
     padding: 10px 10px ;
 }
-
 .button {
     width: 150px;
     height: 50px;
@@ -72,7 +64,6 @@ h1, h2{
     margin-top: 1em;
     margin-bottom: 1.5em;   
 }
-
 #search {
     width: 250px;
     height: 50px;
@@ -80,29 +71,24 @@ h1, h2{
     font-size: 1em;
     font-weight: bold;
 }
-
 ::placeholder{
     color: #000;
 }
-
 .filtersmenu .fas{
     padding: 16px;
     color: #0065fc;
     background-color: #deebff;
     border-radius: 100%;
 }
-
 .filtersmenu { 
     display: flex;
     flex-direction: row;
     justify-content: stretch;
 }
-
 .filtersmenu #nope {
     border: none;
     border-radius: 60px;
 }
-
 .filtersmenu ul{
     display: flex;
     justify-content: space-evenly;
@@ -118,12 +104,10 @@ h1, h2{
     border-radius: 60px;
     margin-right: 20px;
 }
-
 .info{
     display: flex;
     align-items: center;
 }
-
 .fa-info{
     padding: 10px 15px 10px 15px;
     color: #0065FC;
@@ -131,57 +115,26 @@ h1, h2{
     border: solid 1px #d9d9d9;
     display: flex;
 }
-
-
 .info p{
     margin-left: 20px;
 }
-
 .fas.fa-star.grey{
     color: #d9d9d9;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*ACCOMODATION*/
 
 #accomodation{
     background-color: white;
     width: 66.6%;   
 }
-
 .accomodationmarseille{
     display: flex;
     flex-wrap: wrap;
 }
-
 .accomodationmarseille h3{
     line-height: 0;
 }
-
 .VignetteAcc{
     width: 30%;
     width: calc(33.3% - 30px);
@@ -192,14 +145,12 @@ h1, h2{
     margin: 0 20px 50px 10px;
     box-shadow: 0 5px 15px #cacaca;
 }
-
 .Vignettecontent{
     padding-left: 20px;
     font-size: 15px;
     line-height: 0.5;
     margin-bottom: 10px;
 }
-    
 .accmapicture{
     background-color: white;
     border-radius: 15px 15px 0px 0px;
@@ -208,15 +159,12 @@ h1, h2{
     height: 120px;
     object-fit: cover;
 }
-
 .fa-star{
     color: #0065FC;
 }
-
 #accomodationpopular{
     display: flex;
 }
-
 #popular{
     background-color: white;
     width: 33.3%;
@@ -237,7 +185,6 @@ h1, h2{
     margin: 0 10px 45px 10px;
     height: 165px;
     box-shadow: 0 5px 16px #cacaca;
-    
 }
 .poppicture{
     background-color: white;
@@ -258,30 +205,17 @@ h1, h2{
     padding-top: 2em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*ACTIVITIES*/
 
 #activities{
     width: 100%;
     background-color: white;
-
 }
 .containeractivities{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: auto 170px 30px 30px 30px 170px;
     column-gap: 40px;
-    
 }
 .vignetteact {
     display: flex;
@@ -289,14 +223,11 @@ h1, h2{
     background-color: white;
     border-radius: 15px;
     border: solid #bdd1d17e 1px;
-    
 }
 .blockactivities{
     position: relative;
     flex: 1;
-    
 }
-
 #activities img {
     position: absolute;
     height: 100%;
@@ -332,37 +263,22 @@ h1, h2{
     grid-row: 5/7;
 }
 
-
-
-
-
-
-
-
-
-
-
+/*FOOTER*/
 
 footer{
     width: 100%;
     margin-top: 75px;
     clear: both;
-
 }
-
 .contenu_footer{
     display: flex;
     flex-direction: row;
 }
-
 .block_contenu_footer{
     padding: 0 300px 50px 0;
 }
 
-
-
-
-
+/*RESPONSIVE*/
 
 
 
