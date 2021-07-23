@@ -5,6 +5,7 @@
             <link rel="stylesheet" href="style.css"/>
             <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');</style>
             <script src="https://kit.fontawesome.com/b48558f0ae.js" crossorigin="anonymous"></script>
+            <meta name="viewport" content="width=device-width" />
             <title>Reservia</title>
     </head>
     <body>
@@ -15,21 +16,21 @@
                 <ul class="menunav"> <!--Le menu-->
                     <li><a style="color: #0065FC" href="#hébergements">Hébergement</a></li>
                     <li class="nope2"><a href="#activités">Activités</a></li>
-                    <li class="nope2"><a style="color: #0065FC" href="#"><b>S'inscrire</b></a></li>
-                </ul> 
+                    <button class="inscription"><b>S'inscrire</b></button>
+                </ul>
+                
             </nav>
             <div class="searchmenu">   
                 <H1>Trouvez votre hébergement pour des vacances de rêve</H1>    
                 <p>En plein centre ville ou en pleine nature</p>
                 <form> <!--La barre de recherche-->
-                    <div>
+                    <div class="searchbar">
                         <i class="fas fa-map-marker-alt"></i><input type="search" id="search" name="q" placeholder="Marseille, France">
                         <button class="button">Rechercher</button>
                     </div>
                 </form>
             </div>
             <div class="filtersmenu">
-               
                     <ul class="filtres"> <!--Les filtres-->
                         <li id="nope">Filtres</li>
                         <li><a href="#"><i class="fas fa-money-bill-wave"> </i>Économique</a></li>
@@ -45,7 +46,8 @@
         </header>
            
         <section id="accomodationpopular"> <!--L'hébergement-->   
-        <div id="accomodation">           
+        <div id="accomodation"> 
+            <div class="greybox1">     
             <h2>Hébergements à Marseille</h2> 
                 <div class="accomodationmarseille">
                     <div class="VignetteAcc">
@@ -108,10 +110,12 @@
                         </div>  
                         </a>
                     </div>
-                    <a href="#"><h3>Afficher plus</h3></a>
+                    <a href="#" class="plus"><h3>Afficher plus</h3></a>
                 </div>
+            </div>     
         </div>     
-        <div id="popular">            
+        <div id="popular"> 
+            <div class="greybox2">         
                 <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 <div class="VignettePop">
                     <a href="#">
@@ -148,7 +152,8 @@
                         </div>
                     </div>
                     </a>
-                </div>    
+                </div>  
+            </div>    
         </div>          
         </section>
         <section id="activities"> <!--Les activités-->            
